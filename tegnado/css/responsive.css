@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+	.wrapper {max-width:940px;}
+	.nav {padding: 0 0 0 85px;}
+	.logo { margin: 0 0 0 84px;}
+	.left_content { padding: 0 0 0 44px;}
+	.overview_module {font-size: 12px;}
+	.left_content {  max-width: 60%;}
+}
+   
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	.wrapper {max-width:748px;}
+	.search_btn {  top: -29px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.wrapper {max-width:100%;}
+	.home_wrap {padding: 0 20px;}
+	.logo {  margin: -31px 0;}
+	.nav { padding: 0;}
+	.nav ul li.tv-menu { float: left;margin: 16px 19px 0;}
+	.nav ul li.hand-menu {  left: 25%; margin-bottom: 0;margin-left:33px; margin-top: 28px; position: relative;text-align: center;transform:translateX(-50%);}
+	.nav ul li.skall-menu {float: right; margin: 0; text-align: right;}
+	.nav {padding: 17px 0 0;}
+	.nav ul { text-align: left;}
+	.post_meta { padding: 0 0 26px;}
+	.search_btn { right: 20px; top: -14px; width: 55px;}
+	.main_body_content { background: #000 url("../images/homepage-backgroud.jpg") no-repeat scroll center -81px;}
+	.left_content{width:100%; float:none;}
+	.sidebar {float: none; text-align: center; width:100%;}
+	.archive_info {  text-align: center; }
+	.overview_module { padding: 0 0 0 22px; width: 46%;text-align: center;}
+	.tagcloud {padding-top: 40px;}
+	.tagcloud a{ padding: 0 10px 0 5px;}
+   
+}
+
+
+@media only screen and (max-width:600px) {
+	.search_box input[type="text"] { font-size:14px; }
+	.nav ul li.tv-menu { margin: 16px 0 0;}
+	.nav ul li.hand-menu { margin: 28px 0 0 0; left: 19%;}
+	.nav { padding: 57px 0 0;}
+	.overview_module {  padding: 0 0 0 13px; }
+	.tagcloud a{ padding: 0 10px 0 5px;}
+	.search_btn { right: 9px; top: -16px; width: 45px; }
+	.nav ul li.hand-menu { left: 27%;}
+
+
+}
+@media only screen and (max-width:480px) {
+	.main_body_content .wp-pagenavi a, .main_body_content .wp-pagenavi span { padding: 13px 11px;}
+	.logo { margin: 6px 0;}
+	.search_btn { top: -41px; }
+	.archive_info {text-align: center;}
+	.nav { padding: 16px 0 0;}
+	.overview_module {width: 90%;}
+	.left_content h4 {font-size: 20px; padding: 16px 0 10px;}
+	.nav ul li.hand-menu { left: 28%; }
+	#single-popup { padding: 0 15px; }
+
+}
